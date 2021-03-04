@@ -28,7 +28,7 @@ function addItems() {
 
   createItem(200, 310, 'nocovid');
 
-  createItem(130, 240, 'cards');
+  createItem(200, 240, 'cards');
   createItem(270, 310, 'clothes');
   createItem(340, 310, 'dryer');
   createItem(410, 310, 'gadget');
