@@ -15,14 +15,14 @@ var winningScore = 180;
 // add collectable items to the game
 function addItems() {
   items = game.add.physicsGroup();
-  // createItem(575, 400, 'fish');
-  // createItem(365, 400, 'fruits');
-  // createItem(225, 500, 'milk');
-  // createItem(295, 500, 'water');
-  // createItem(365, 500, 'nofastfood');
-  // createItem(435, 500, 'meat');
-  // createItem(505, 500, 'vagetables');
-  // createItem(575, 500, 'nodrinking');
+  createItem(575, 400, 'fish');
+  createItem(365, 400, 'fruits');
+  createItem(225, 500, 'milk');
+  createItem(295, 500, 'water');
+  createItem(365, 500, 'nofastfood');
+  createItem(435, 500, 'meat');
+  createItem(505, 500, 'vagetables');
+  createItem(575, 500, 'nodrinking');
 
   createItem(237, 132, 'nosmoke');
 
