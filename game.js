@@ -24,7 +24,7 @@ function addItems() {
   createItem(505, 500, 'vagetables');
   createItem(575, 500, 'nodrinking');
 
-  createItem(237, 132, 'nosmoke');
+  createItem(200, 132, 'nosmoke');
 
   createItem(200, 310, 'nocovid');
 
