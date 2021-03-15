@@ -142,3 +142,16 @@ left:  50px;
   margin: 10px;
   border-radius: 50%;
 }
+
+/* time */
+.timer-wrapper {
+  position: absolute;
+top: 500px;
+}
+.timer {
+  width: 150px;
+  background-color: #FEC75E;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
