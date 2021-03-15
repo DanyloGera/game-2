@@ -86,9 +86,8 @@ html {
 .info-wrap {
   display: flex;
   flex-direction: row;
-  align-items: center;
   position: absolute;
-  
+  top: 150px;
  right: 50px;
 }
 .column-wrap{
@@ -100,7 +99,7 @@ html {
   display: flex;
   flex-direction: row;
   position: absolute;
-
+  top: 150px;
 left:  50px;
 }
 .column-wrap1{
