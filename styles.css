@@ -87,7 +87,7 @@ html {
   display: flex;
   flex-direction: row;
   position: absolute;
-  top: 130px;
+  top: 140px;
  right: 50px;
 }
 .column-wrap{
@@ -99,7 +99,7 @@ html {
   display: flex;
   flex-direction: row;
   position: absolute;
-  top: 130px;
+  top: 140px;
 left:  50px;
 }
 .column-wrap1{
