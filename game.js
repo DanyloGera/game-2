@@ -156,9 +156,9 @@ window.onload = function () {
     //Load spritesheets
     game.load.spritesheet('player', 'chalkers.png', 48, 62);
 
-    game.load.spritesheet('nofastfood', 'food/nofastfood.png', 36, 44);
-    game.load.spritesheet('nosmoke', 'food/nosmoke.png', 36, 44);
-    game.load.spritesheet('nodrinking', 'food/nodrinking.png', 36, 44);
+    game.load.spritesheet('nofastfood', 'food/nofastfood.png', 36, 37);
+    game.load.spritesheet('nosmoke', 'food/nosmoke.png', 36, 37);
+    game.load.spritesheet('nodrinking', 'food/nodrinking.png', 36, 37);
     game.load.spritesheet('vagetables', 'food/vagetables.png', 36, 44);
     game.load.spritesheet('fruits', 'food/fruits.png', 36, 44);
     game.load.spritesheet('fish', 'food/fish.png', 36, 44);
@@ -172,7 +172,7 @@ window.onload = function () {
     game.load.spritesheet('gadget', 'gadgets/gadget.png', 36, 44);
     game.load.spritesheet('money', 'gadgets/money.png', 36, 44);
     game.load.spritesheet('new', 'gadgets/new.png', 36, 44);
-    game.load.spritesheet('nocovid', 'gadgets/nocovid.png', 36, 44);
+    game.load.spritesheet('nocovid', 'gadgets/nocovid.png', 36, 37);
 
 
     game.load.spritesheet('badge', 'badge.png', 42, 54);
