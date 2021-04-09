@@ -49,7 +49,7 @@ html {
 .callout-header {
   padding: 25px 15px;
   background: #555;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   text-align: center;
 
@@ -61,7 +61,7 @@ html {
   color: black;
   text-align: center;
   text-align: justify;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .closebtn {
