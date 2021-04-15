@@ -128,7 +128,7 @@ function itemHandler(player, item) {
     window.location.reload(true);
   }
   if (currentScore >= winningScore) {
-    game.add.sprite(107, 456, 'gamemachine');
+    game.add.sprite(137, 456, 'gamemachine');
 createBadge();
   }
 }
