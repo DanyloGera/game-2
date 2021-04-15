@@ -79,7 +79,7 @@ function createItem(left, top, image) {
 // }
 function createBadge() {
   badges = game.add.physicsGroup();
-  var badge = badges.create(77, 480, 'star');
+  var badge = badges.create(125, 480, 'star');
   badge.animations.add('spin');
   badge.animations.play('spin', 10, true);
 }
