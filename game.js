@@ -71,9 +71,15 @@ function createItem(left, top, image) {
 }
 
 // create the winning badge and add to screen
+// function createBadge() {
+//   badges = game.add.physicsGroup();
+//   var badge = badges.create(77, 480, 'badge');
+//   badge.animations.add('spin');
+//   badge.animations.play('spin', 10, true);
+// }
 function createBadge() {
   badges = game.add.physicsGroup();
-  var badge = badges.create(77, 480, 'badge');
+  var badge = badges.create(77, 480, 'star');
   badge.animations.add('spin');
   badge.animations.play('spin', 10, true);
 }
@@ -122,7 +128,8 @@ function itemHandler(player, item) {
     window.location.reload(true);
   }
   if (currentScore >= winningScore) {
-      createBadge();
+    game.add.sprite(77, 480, 'gamemachine');
+createBadge();
   }
 }
 
@@ -175,7 +182,9 @@ window.onload = function () {
     game.load.spritesheet('nocovid', 'gadgets/nocovid.png', 36, 44);
 
 
-    game.load.spritesheet('badge', 'badge.png', 42, 54);
+    // game.load.spritesheet('badge', 'badge.png', 42, 54);
+    game.load.spritesheet('star', 'star.png', 32, 32);
+    game.load.spritesheet('gamemachine', 'gamemachine.png', { frameWidth: 49, frameHeight: 85 });
   }
 
   //timer
