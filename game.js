@@ -73,7 +73,7 @@ function createItem(left, top, image) {
 // create the winning badge and add to screen
 function createBadge() {
   badges = game.add.physicsGroup();
-  var badge = badges.create(70, 480, 'badge');
+  var badge = badges.create(145, 490, 'star');
   badge.animations.add('spin');
   badge.animations.play('spin', 10, true);
 }
@@ -123,7 +123,7 @@ function itemHandler(player, item) {
     window.location.reload(true);
   }
   if (currentScore >= winningScore) {
-
+    game.add.sprite(137, 456, 'gamemachine');
 createBadge();
   }
 }
