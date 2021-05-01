@@ -178,6 +178,8 @@ window.onload = function () {
 
 
     game.load.spritesheet('badge', 'badge.png', 42, 54);
+    game.load.spritesheet('star', 'star.png', 32, 32);
+    game.load.spritesheet('gamemachine', 'gamemachine.png', { frameWidth: 49, frameHeight: 85 });
   }
 
   //timer
