@@ -132,7 +132,7 @@ createBadge();
 // when the player collects the badge at the end of the game
 function badgeHandler(player, badge) {
   badge.kill();
-  items.remove();
+  this.items.clear(true,true);
   var btn = document.getElementById('btn-next');
   btn.removeAttribute("disabled");
   btn.style.border = "2px solid #000";
