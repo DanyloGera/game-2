@@ -125,13 +125,14 @@ function itemHandler(player, item) {
   if (currentScore >= winningScore) {
     game.add.sprite(137, 456, 'gamemachine');
 createBadge();
-sprite.setActive(false).setVisible(false);
+
   }
 }
 
 // when the player collects the badge at the end of the game
 function badgeHandler(player, badge) {
   badge.kill();
+  items.setActive(false).setVisible(false);
   var btn = document.getElementById('btn-next');
   btn.removeAttribute("disabled");
   btn.style.border = "2px solid #000";
