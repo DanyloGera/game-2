@@ -140,7 +140,7 @@ function badgeHandler(player, badge) {
 
 }
 function itemKiller(items) {
-  items.kill();
+  items.destroy();
 }
 // setup game when the web page loads
 window.onload = function () {
