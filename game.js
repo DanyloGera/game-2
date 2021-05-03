@@ -125,19 +125,16 @@ function itemHandler(player, item) {
   if (currentScore >= winningScore) {
     game.add.sprite(137, 456, 'gamemachine');
 createBadge();
-
   }
 }
 
 // when the player collects the badge at the end of the game
 function badgeHandler(player, badge) {
   badge.kill();
-
   var btn = document.getElementById('btn-next');
   btn.removeAttribute("disabled");
   btn.style.border = "2px solid #000";
   won = true;
-
 }
 
 // setup game when the web page loads
@@ -198,9 +195,6 @@ window.onload = function () {
 
   // initial game set up
   function create() {
-    function remove(player, badge) {
-      this.items.clear(true,true);
-    }
     // alert("Прочитайте завдання, закрийте його на хрестик і грайте!");
     timer1()
     this.add.image(0, 0, 'background');
