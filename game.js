@@ -127,7 +127,7 @@ function itemHandler(player, item) {
 createBadge();
 
 }else if (item.key === 'badge') {
-  item.setActive(false).setVisible(false);
+  items.visible = false;
 
   }
 }
