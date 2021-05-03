@@ -125,6 +125,7 @@ function itemHandler(player, item) {
   if (currentScore >= winningScore) {
     game.add.sprite(137, 456, 'gamemachine');
 createBadge();
+sprite.setActive(false).setVisible(false);
   }
 }
 
