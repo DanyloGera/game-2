@@ -132,7 +132,7 @@ createBadge();
 // when the player collects the badge at the end of the game
 function badgeHandler(player, badge) {
   badge.kill();
-  this.items.clear(true,true);
+
   var btn = document.getElementById('btn-next');
   btn.removeAttribute("disabled");
   btn.style.border = "2px solid #000";
@@ -198,6 +198,9 @@ window.onload = function () {
 
   // initial game set up
   function create() {
+    function remove(player, badge) {
+      this.items.clear(true,true);
+    }
     // alert("Прочитайте завдання, закрийте його на хрестик і грайте!");
     timer1()
     this.add.image(0, 0, 'background');
