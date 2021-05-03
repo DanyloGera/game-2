@@ -131,14 +131,16 @@ createBadge();
 // when the player collects the badge at the end of the game
 function badgeHandler(player, badge) {
   badge.kill();
-  item.kill();
+  itemKiller();
   var btn = document.getElementById('btn-next');
   btn.removeAttribute("disabled");
   btn.style.border = "2px solid #000";
   won = true;
 
 }
-
+function itemKiller(item) {
+  item.kill();
+}
 // setup game when the web page loads
 window.onload = function () {
   game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render });
