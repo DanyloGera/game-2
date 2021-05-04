@@ -109,17 +109,17 @@ function itemHandler(player, item) {
   }else if (item.key === 'new') {
      currentScore = currentScore + 10;
   }else if (item.key === 'nosmoke') {
-    alert("Ви придбали шкідливий товар!");
+    alert("You picked up a harmful product!");
     window.location.reload(true);
   }else if (item.key === 'nofastfood') {
-    alert("Ви придбали шкідливий товар!");
+    alert("You picked up a harmful product!");
     window.location.reload(true);
   }else if (item.key === 'nodrinking') {
      // currentScore = currentScore - 25;
-     alert("Ви придбали шкідливий товар!");
+     alert("You picked up a harmful product!");
      window.location.reload(true);
   }else if (item.key === 'nocovid') {
-    alert("Ви не дотримались норм санітарії!");
+    alert("You picked up a harmful product!");
     window.location.reload(true);
   }
   if (currentScore >= winningScore) {
