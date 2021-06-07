@@ -66,8 +66,8 @@ html {
       max-height: 80%;
     }
     .layout{
-      min-width: 90px;
-     min-height: 90px;
+      min-width: 80px;
+     min-height: 80px;
     }
   }
 
@@ -178,8 +178,8 @@ html {
 .layout{
   margin: 10px;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
 }
 
 /* time */
