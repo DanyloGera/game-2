@@ -115,10 +115,12 @@ html {
 /* info advertisement */
 .info-wrap {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   position: absolute;
-  top: 150px;
- right: 50px;
+  top: 20%;
+  right: 2%;
+  width: 100%;
 }
 .column-wrap{
   display: flex;
@@ -127,10 +129,12 @@ html {
 /* 2part */
 .info-wrap1 {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   position: absolute;
-  top: 150px;
-left:  50px;
+  top: 20%;
+  left: 2%;
+  width: 100%;
 }
 .column-wrap1{
   display: flex;
