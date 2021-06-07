@@ -62,7 +62,7 @@ html {
   }
   @media (min-height: 800px) {
     .btn-next, .btn-back {
-      max-height: 70%;
+      max-height: 80%;
     }
   }
 
