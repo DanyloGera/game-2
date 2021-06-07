@@ -66,8 +66,8 @@ html {
       max-height: 80%;
     }
     .layout{
-      width: 90px;
-      height: 90px;
+      min-width: 90px;
+     min-height: 90px;
     }
   }
 
