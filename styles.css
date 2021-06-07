@@ -65,7 +65,7 @@ html {
     .btn-next, .btn-back {
       max-height: 80%;
     }
-    .tooltip{
+    .layout{
       width: 90px;
       height: 90px;
     }
@@ -149,8 +149,7 @@ html {
 .tooltip {
   position: relative;
   display: inline-block;
-  width: 70px;
-  height: 70px;
+
 }
 
 .tooltip .tooltiptext {
@@ -179,6 +178,8 @@ html {
 .layout{
   margin: 10px;
   border-radius: 50%;
+  width: 90px;
+  height: 90px;
 }
 
 /* time */
