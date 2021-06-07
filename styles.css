@@ -2,9 +2,27 @@ html {
   background-image: linear-gradient(to bottom, #f0e8dc, #f5cfbe, #fab3b7, #eb9bc8, #b991e5);
  }
  canvas {
-    margin: auto;
     box-shadow: 0 0  20px 10px #43011F;
     border-radius: 10px;
+  }
+  .row1{
+    display: flex;
+  justify-content: flex-start;
+
+  }
+  .row2{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .row1-wrap{
+    position: absolute;
+      height: 95%;
+    width: 20%;
+  }
+  .row2-wrap{
+    position: absolute;
+      height: 95%;
+    width: 20%;
   }
 .btn-back {
   position: absolute;
