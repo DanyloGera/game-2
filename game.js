@@ -22,7 +22,7 @@ function addItems() {
   createItem(365, 500, 'nofastfood');
   createItem(440, 500, 'meat');
   createItem(510, 500, 'vagetables');
-  createItem(580, 500, 'nodrinking');
+  createItem(575, 500, 'nodrinking');
 
     createItem(575, 400, 'fish');
 
