@@ -16,8 +16,8 @@ var winningScore = 230;
 function addItems() {
   items = game.add.physicsGroup();
   createItem(575, 400, 'fish');
-  createItem(365, 400, 'fruits');
-  createItem(225, 500, 'milk');
+  createItem(360, 400, 'fruits');
+  createItem(220, 500, 'milk');
   createItem(285, 500, 'water');
   createItem(365, 500, 'nofastfood');
   createItem(445, 500, 'meat');
