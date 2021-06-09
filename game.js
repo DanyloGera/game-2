@@ -37,10 +37,10 @@ function addItems() {
 
   createItem(400, 120, 'new');
   createItem(470, 120, 'dryer');
-  createItem(540, 120, 'clothes');
+  createItem(530, 120, 'clothes');
   createItem(610, 120, 'nocovid');
   createItem(610, 70, 'gadget');
-  createItem(680, 120, 'money');
+  createItem(690, 120, 'money');
   createItem(750, 120, 'cards');
 
 }
