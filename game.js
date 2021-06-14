@@ -19,10 +19,10 @@ function addItems() {
   createItem(365, 400, 'fruits');
   createItem(220, 500, 'milk');
   createItem(280, 500, 'water');
-  createItem(365, 500, 'nofastfood');
+  createItem(355, 500, 'nofastfood');
   createItem(445, 500, 'meat');
   createItem(500, 500, 'vagetables');
-  createItem(575, 500, 'nodrinking');
+  createItem(565, 500, 'nodrinking');
 
   createItem(200, 132, 'nosmoke');
 
